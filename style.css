@@ -1,0 +1,53 @@
+* {
+   margin: 0; 
+   padding: 0;
+   list-style: none;
+}
+
+header {
+    padding: 3em;
+    background-color: rgba(13, 128, 236, 0.801);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: deepskyblue;
+    transition: 1s;
+}
+
+#secao {
+    background-image: url(imagens/iphone14-lancamento.jpg);
+    background-repeat: no-repeat;
+    padding: 20rem;
+}
+
+#secao button {
+    margin-top: 1em;
+    padding: 10px;
+    width: 15rem;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(13, 128, 236, 0.801);
+}
+
+#secao h1 {
+    font-size: 1.7em;
+    margin-left: 6%;
+}
+
+#secao p {
+    margin-top: 15px;
+}
