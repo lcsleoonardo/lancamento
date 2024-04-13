@@ -51,3 +51,7 @@ li a:hover {
 #secao p {
     margin-top: 15px;
 }
+
+#secao span {
+    color: aqua;
+}
