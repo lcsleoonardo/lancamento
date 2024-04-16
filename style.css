@@ -31,6 +31,7 @@ li a:hover {
 #secao {
     background-image: url(imagens/iphone14-lancamento.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     padding: 20rem;
 }
 
@@ -41,6 +42,7 @@ li a:hover {
     font-size: 1em;
     color: white;
     background-color: rgba(13, 128, 236, 0.801);
+    border-color: white;
 }
 
 #secao h1 {
