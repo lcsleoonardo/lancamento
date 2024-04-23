@@ -49,6 +49,11 @@ li a:hover {
     font-size: 1.2rem;
 }
 
+#secao1 a button:hover {
+    color:aquamarine;
+    transition: 1s;
+}
+
 #secao1 h1 {
     font-size: 1.7em;
     margin-left: 6%;
@@ -63,10 +68,11 @@ li a:hover {
 }
 
 #secao2 {
-    background-color: rgb(255, 255, 255);
-    padding: 5rem;
-    margin-top: -2rem;
-    display: flex;
+    background-image: url(imagens/iphone14-deitado.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25rem;
     color: aqua;
 }
 
