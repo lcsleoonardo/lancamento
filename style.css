@@ -28,14 +28,14 @@ li a:hover {
     transition: 1s;
 }
 
-#secao {
+#secao1 {
     background-image: url(imagens/iphone14-lancamento.jpg);
     background-repeat: no-repeat;
     background-position: center;
     padding: 20rem;
 }
 
-#secao button {
+#secao1 button {
     margin-top: 1em;
     padding: 10px;
     width: 15rem;
@@ -43,17 +43,34 @@ li a:hover {
     color: white;
     background-color: rgba(13, 128, 236, 0.801);
     border-color: white;
+    cursor: pointer;
+    border-radius: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
 }
 
-#secao h1 {
+#secao1 h1 {
     font-size: 1.7em;
     margin-left: 6%;
 }
 
-#secao p {
+#secao1 p {
     margin-top: 15px;
 }
 
-#secao span {
+#secao1 span {
     color: aqua;
+}
+
+#secao2 {
+    background-color: rgb(255, 255, 255);
+    padding: 5rem;
+    margin-top: -2rem;
+    display: flex;
+    color: aqua;
+}
+
+#rodape {
+    background-color: aqua;
+    padding: 5rem;
 }
