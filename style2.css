@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 5rem;
+    background-color: red;
+}
+
+.div1 img {
+    width: 20rem;
+    height: auto;
+    margin-left: 36%;
+}
+
+.div2 img {
+    width: 20rem;
+    height: auto;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-around;
+}
