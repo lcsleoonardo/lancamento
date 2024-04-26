@@ -8,10 +8,18 @@ header {
     background-color: red;
 }
 
+
+.div1 div {
+   display: flex;
+   justify-content: center;
+}
+
+
+
 .div1 img {
     width: 20rem;
     height: auto;
-    margin-left: 36%;
+ 
 }
 
 .div2 img {
